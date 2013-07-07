@@ -54,4 +54,5 @@ executable SimpleStreamingGUI
   
   -- Other library packages from which modules are imported.
   build-depends:       base >= 4.2 && <= 4.7
+                     , stm  >= 2.4
   Main-is:             SimpleStreamingGUI.hs
